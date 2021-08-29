@@ -1,4 +1,4 @@
-package pl.sda;
+package pl.sda.volatiles;
 
 import java.util.concurrent.TimeUnit;
 
