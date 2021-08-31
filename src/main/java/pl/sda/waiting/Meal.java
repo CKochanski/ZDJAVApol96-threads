@@ -8,8 +8,9 @@ public class Meal {
         while (!isReady) {
             System.out.println("Waiting for meal");
             wait();
+            System.out.println("I received notification about meal");
         }
-        System.out.println("Meal is ready!!!");
+        System.out.println("I am eating now!");
     }
 
     public synchronized void prepare() {
