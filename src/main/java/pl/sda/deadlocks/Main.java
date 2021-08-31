@@ -25,7 +25,7 @@ public class Main {
                 } catch (InterruptedException ignored) {
                 }
                 synchronized (r1) {
-                    System.out.println("Thread 2: Locked r2");
+                    System.out.println("Thread 2: Locked r1");
                 }
             }
         });
